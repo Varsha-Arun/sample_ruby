@@ -10,10 +10,10 @@ rvm:
  
 build:
 
-#  pre_ci_boot:
-#    image_name: drydock/u16ruball
-#    image_tag: master
-#    pull: true  
+  pre_ci_boot:
+    image_name: drydock/u16ruball
+    image_tag: master
+    pull: true  
     
   ci:
     - ruby -v
